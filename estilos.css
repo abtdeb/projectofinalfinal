@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    background-color: #353a40;
+    padding: 0 100px;
+}
+
+.carousel-inner{
+    filter: brightness(0.5);
+}
+
+.carousel {
+    position: relative;
+}
+
+.texto{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.bton a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+}
+
+.cardlugar{
+    background-color: #353a40;
+    color: white;
+
+}
+
+.formcont{
+   display: flex;
+   justify-content: center;
+ 
+}
+
+u{
+    border-bottom: 2px dotted black;
+    text-decoration: none;
+}
+
+footer{
+    background-image: linear-gradient(to right, #162c36 0%, #1e5372 120%); 
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pie a{
+    max-width: 90px;
+    padding: 20px 0px;
+    margin: 0 35px;
+    text-decoration: none;
+    color: white;
+}
+
